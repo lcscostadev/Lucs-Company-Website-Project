@@ -7,6 +7,9 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
+
+
+
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
@@ -24,7 +27,6 @@ function show() {
 function close() {
     mainMenu.style.top = '-100%';
 }
-
 
 // SESSÃO PARA ALTERAR SESSÕES NO SCROLL
 
