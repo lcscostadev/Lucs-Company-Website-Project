@@ -5,13 +5,12 @@ const navbar = document.querySelector('.navbar');
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
-const menu_items = document.querySelectorAll('nav .mainMenu ul li');
-// highlight nav scroll
-
+const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
+// close menu when you click on a menu item 
 menu_items.forEach(item => {
     item.addEventListener('click', function () {
         close();
@@ -25,6 +24,7 @@ function show() {
 function close() {
     mainMenu.style.top = '-100%';
 }
+
 
 // SESSÃO PARA ALTERAR SESSÕES NO SCROLL
 
