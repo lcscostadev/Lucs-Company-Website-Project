@@ -330,6 +330,11 @@ nav .mainMenu .closeMenu,
     text-align: center;
 }
 
+.services h4 {
+
+    text-align: center;
+}
+
 .cards {
     max-width: 1200px;
     display: flex;
