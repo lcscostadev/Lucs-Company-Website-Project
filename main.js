@@ -5,7 +5,7 @@ const navbar = document.querySelector('.navbar');
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
-const menu_items = document.querySelectorAll('nav .container ul li');
+const menu_items = document.querySelectorAll('nav .mainMenu ul li');
 // highlight nav scroll
 
 
