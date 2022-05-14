@@ -541,7 +541,7 @@ form input,
 form textarea {
     border: 0;
     margin: 10px 0;
-    padding: 20px 10px;
+    padding: 20px 5px;
     outline: none;
     background: #d8eefe;
     border-radius: 5px;
@@ -843,5 +843,16 @@ footer {
         text-align: center;
         flex-direction: column;
         gap: 10px;
+    }
+}
+
+@media(max-width: 315px) {
+    .logo {
+        width: 150px;
+        padding: 10px 0;
+    }
+
+    .openMenu .icon {
+        width: 25px;
     }
 }
