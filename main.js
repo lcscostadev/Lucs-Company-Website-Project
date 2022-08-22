@@ -8,8 +8,6 @@ const openMenu = document.querySelector('.openMenu');
 const menu_items = document.querySelectorAll('nav .mainMenu li a');
 
 
-
-
 openMenu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 
